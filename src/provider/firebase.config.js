@@ -11,6 +11,7 @@ const firebaseConfig = {
   storageBucket: import.meta.env.VITE_FIREBASE_storageBucket,
   messagingSenderId: import.meta.env.VITE_FIREBASE_messagingSenderId,
   appId: import.meta.env.VITE_FIREBASE_appId,
+  measurementId: import.meta.env.VITE_FIREBASE_measurementId,
 };
 
 // Initialize Firebase
